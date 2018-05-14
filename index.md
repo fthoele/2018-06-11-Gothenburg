@@ -161,7 +161,8 @@ eventbrite:   45938953647        # optional: alphanumeric key for Eventbrite reg
 {% endcomment %}
 <p id="contact">
   <strong>Contact</strong>:
-  Please email
+  Please email Marcela Davila (marcela.davila@gu.se) for questions regarding registrations or Florian Thöle (florian@florianthoele.com) for questions regarding workshop contents and set-up.
+{% comment %}
   {% if page.email %}
     {% for email in page.email %}
       {% if forloop.last and page.email.size > 1 %}
@@ -177,6 +178,7 @@ eventbrite:   45938953647        # optional: alphanumeric key for Eventbrite reg
     to-be-announced
   {% endif %}
   for more information.
+{% endcomment %}
 </p>
 
 <hr/>
