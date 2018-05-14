@@ -161,7 +161,7 @@ eventbrite:   45938953647        # optional: alphanumeric key for Eventbrite reg
 {% endcomment %}
 <p id="contact">
   <strong>Contact</strong>:
-  Please email Marcela Davila (marcela.davila@gu.se) for questions regarding registrations or Florian Thöle (florian@florianthoele.com) for questions regarding workshop contents and set-up.
+  Please email Marcela Davila (<a href='mailto:marcela.davila@gu.se'>marcela.davila@gu.se</a>) for questions regarding registrations or Florian Thöle (<a href='mailto:florian@florianthoele.com'>florian@florianthoele.com</a>) for questions regarding workshop contents and set-up.
 {% comment %}
   {% if page.email %}
     {% for email in page.email %}
